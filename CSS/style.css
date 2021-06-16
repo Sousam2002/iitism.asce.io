@@ -28,8 +28,7 @@ header{
 
 
 #head-logo{
-    margin: 10px;
-    width: 70px;
+    width: 100px;
     float: left;
 }
 
@@ -77,27 +76,93 @@ header{
     width: 100%;
     background: #005DAB;
     position: absolute;
-    bottom: 0;
+    bottom: 84px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-bottom: 30px;
+    
 }
 
 #bottomLogos{
     color: #fff;
     float: left;
+    min-width: 288px;
 }
 
 #bottomLogos p{
-    width: 80%;
     text-align: center;
-    margin-left: 30px;
+    width: 200px;
 }
 
 #asceLogo{
     width: 130px;  
-    margin: 30px 0px 0px 40px ;
+    margin: 30px 0px 0px 0px ;
 }
 
 #ismLogo{
     width: 95px;
     margin-top: 23px;
     margin-left: 10px;
+}
+
+#location{
+    padding: 50px 0px;
+    display: inline;
+    width: 300px;
+    text-align: center;
+    color: white;
+    float: left;
+}
+
+#otherLinks{
+    padding-top: 30px;
+    color: white;
+}
+
+#otherLinks ul li{
+    list-style: none;
+    line-height: 2em;
+}
+
+#otherLinks ul li a{
+    text-decoration: none;
+    color: #aaa;
+}
+
+#otherLinks ul li a:hover{
+    text-decoration: underline;
+}
+
+#footer-bottom{
+    width: 100%;
+    background: #015397;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+
+#copyright{
+    padding: 10px;
+    line-height: 2em;
+    max-width: 500px;
+}
+
+#social-media{
+    padding: 20px;
+}
+
+#social-media p{
+    float: left;
+}
+
+#social-media a{
+    color: white;
+}
+
+#social-media i{
+    font-size: 24px;
+    padding-left: 20px;
 }
